@@ -54,7 +54,7 @@ class Charge extends Resource
      * @param int $permission
      * @return object
      */
-    public function revert($permission = "", $options = null)
+    public function revert($options = null, $permission = "")
     {
         $options["enabled_key"] = $permission;
 
