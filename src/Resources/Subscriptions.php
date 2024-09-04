@@ -7,7 +7,7 @@ use Epayco\Resource;
 /**
  * Subscriptions methods
  */
-
+#[\AllowDynamicProperties()]
 class Subscriptions extends Resource
 {
     /**

@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Daviplata payment methods
  */
+#[\AllowDynamicProperties()]
 class Daviplata extends Resource
 {
     /**

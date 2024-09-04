@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Charge payment methods
  */
+#[\AllowDynamicProperties()]
 class Charge extends Resource
 {
     /**

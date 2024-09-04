@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Genrate token credit card tokenize
  */
+#[\AllowDynamicProperties()]
 class Token extends Resource
 {
     /**

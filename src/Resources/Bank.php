@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Bank methods
  */
+#[\AllowDynamicProperties()]
 class Bank extends Resource
 {
     /**

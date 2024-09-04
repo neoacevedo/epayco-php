@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Customer methods
  */
+#[\AllowDynamicProperties()]
 class Customers extends Resource
 {
     /**

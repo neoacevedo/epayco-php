@@ -8,6 +8,7 @@ use Epayco\Exceptions\ErrorException;
 /**
  * Cash payment methods
  */
+#[\AllowDynamicProperties()]
 class Cash extends Resource
 {
     /**

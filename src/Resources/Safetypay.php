@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Safetypay payment methods
  */
+#[\AllowDynamicProperties()]
 class Safetypay extends Resource
 {
     /**

@@ -7,6 +7,7 @@ use Epayco\Resource;
 /**
  * Plan methods
  */
+#[\AllowDynamicProperties()]
 class Plan extends Resource
 {
     /**

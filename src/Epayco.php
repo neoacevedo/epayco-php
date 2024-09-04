@@ -2,6 +2,7 @@
 
 namespace Epayco;
 
+use Epayco\Exceptions\ErrorException;
 use Epayco\Resources\Bank;
 use Epayco\Resources\Cash;
 use Epayco\Resources\Charge;
